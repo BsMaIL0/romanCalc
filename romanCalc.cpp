@@ -158,7 +158,7 @@ int main(int argc, char *argv[]) {
           break;
         }
 
-        if (top + 1 >= 100) { // Стек переполнен
+        if (top + 1 >= 100) { 
           error = true;
           break;
         }
